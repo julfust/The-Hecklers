@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <header>
+            <img src="assets/img/Webp.net-resizeimage.png" alt="logo hecklers">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="home-section">
+            <section id="carousel-section">
+                <div id="carousel-slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="assets/img/Screenshot_6.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <img src="assets/img/Screenshot_10.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <img src="assets/img/Screenshot_7.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                        <img src="assets/img/Screenshot_8.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                        <img src="assets/img/Screenshot_9.png" style="width:100%">
+                        </div>
+    
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                <div id="carousel-selector" style="text-align:center">
+                    <img src="assets/img/Screenshot_6.png" alt="image groupe" span class="dot" onclick="currentSlide(1)">
+                    <img src="assets/img/Screenshot_10.png" alt="image groupe" span class="dot" onclick="currentSlide(2)">
+                    <img src="assets/img/Screenshot_7.png" alt="image groupe" span class="dot" onclick="currentSlide(3)">
+                    <img src="assets/img/Screenshot_8.png" alt="image groupe" span class="dot" onclick="currentSlide(4)">
+                    <img src="assets/img/Screenshot_9.png" alt="image groupe" span class="dot" onclick="currentSlide(5)">
+                </div>
+            </section>
+
+            <section id="actuality-section">
+                <section id="news-section">
+                    <h2>Latest News</h2>
+                    <div class="news-item" id="news-item1">
+                        <aside>
+                            <div class="news-picture" id="news-picture1"></div>
+                        </aside>
+                        <article>
+                            <h3>Concert à Livry-Gargan</h3>
+                            <p>Le confinement nous a tous un peu arrêté mais The Hecklers restent debout !!! 💪❤️ Dimanche 21 juin ! De retour pour vous 😍😍😍 au bar le 23 à Livry-Gargan pour la fête de la musique et la fin du confinement. Bientôt la com 😎📺 Restez connectés ! 🎧</p>
+                        </article>
+                    </div>
+                    <div class="news-item" id="news-item2">
+                        <aside>
+                            <div class="news-picture" id="news-picture2"></div>
+                        </aside>
+                        <article>
+                            <h3>Concert Rock en Brie</h3>
+                            <p>On vous a manquer? Pas de panique! The Hecklers fait son grand retour!😎😎😎 Nous serons présent lors de l'évènment ROCK EN BRIE 🎵🔥, le 18 mai 2019 à la Queue-En-Brie. Venez nombreux! On vous attend de pied ferme, sa va décoiffer!!!😍</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="video-section">
+                    <h2>Video</h2>
+                    <div>
+                        <video src="assets/video/VID-20191129-WA0019.mp4" class="video-items" controls width="450"></video>
+                    </div>
+                    <div>
+                        <video src="assets/video/VID-20191129-WA0020.mp4" class="video-items" controls width="450"></video>
+                    </div>
+                </section>
+            </section>
+        </div>
+
+        <footer>
+            <div id="social-media-logo-container">
+                <a href="https://www.facebook.com/TheHecklersGrp"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.instagram.com/thehecklersgrp/?hl=fr"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="mailto:jfustier42@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+                <p>© 2023 by THE HECKLERS.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/lib/all.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

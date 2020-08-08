@@ -1,0 +1,257 @@
+/* Elements globaux: body, main container etc... */
+html, body{
+    margin: 0;
+
+    font-family: HelveticaNeueW01-45Ligh, Helvetica, Arial, sans-serif;
+    color: #d9d9d9;
+
+    background: url("../img/Screenshot_5.png") fixed no-repeat;
+    background-size: cover;
+}
+
+#main-container{
+    position: relative;
+    padding-top: 3%;
+}
+
+
+/* Header section */
+header{
+    margin: auto;
+    width: 80%;
+    display: flex;
+
+    z-index: 0;
+}
+
+nav{
+    margin-left: 17%;
+    font-size: 1.2em;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav > ul > li{
+    margin-left: 20%;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    color: #9f2417;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+/* Section gallery */
+#gallery-section{
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 7%;
+}
+
+#gallery-section > h2{
+    font-size: 2em;
+}
+
+#gallery-picture-container{
+    height: 1600px;
+    overflow: hidden;
+}
+
+.row-picture{
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#picture1{
+    position: relative;
+
+    height: 650px;
+    width: 45%;
+
+    margin-right: 3%;
+
+    background-image: url("../img/groupe5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picture2{
+    position: relative;
+
+    height: 650px;
+    width: 45%;
+    
+    background-image: url("../img/groupe10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picture3{
+    position: relative;
+
+    height: 500px;
+    width: 93%;
+
+    margin: auto;
+    margin-top: 3%;
+
+    background-image: url("../img/groupe7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picture4{
+    position: relative;
+
+    height: 650px;
+    width: 45%;
+
+    margin-right: 3%;
+
+    background-image: url("../img/groupe12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picture5{
+    position: relative;
+
+    height: 650px;
+    width: 45%;
+
+    background-image: url("../img/Screenshot_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picture6{
+    position: relative;
+
+    height: 500px;
+    width: 93%;
+
+    margin: auto;
+    margin-top: 3%;
+
+    background-image: url("../img/groupe8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picture7{
+    position: relative;
+
+    height: 650px;
+    width: 45%;
+
+    margin-top: 3%;
+    margin-left: 3.4%;
+
+    background-image: url("../img/Screenshot_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture-description{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.picture-description:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.description-text-container1{
+    width: 70%;
+
+    margin: auto;
+    margin-top: 40%;
+
+    text-align: center;
+    color: #141414;
+}
+
+.description-text-container2{
+    width: 70%;
+
+    margin: auto;
+    margin-top: 15%;
+
+    text-align: center;
+    color: #141414;
+}
+
+.description-text-container > p{
+    font-size: 0.8em;
+}
+
+#gallery-toggle-button{
+    width: 16%;
+
+    margin-top: 5%;
+    margin-left: 40%;
+
+    font-family: HelveticaNeueW01-45Ligh, Helvetica, Arial, sans-serif;
+    color: white;
+
+    background: rgb(20, 20, 20);
+    border: 1px solid white;
+}
+
+
+/* Footer section */
+footer{
+    margin-top: 6%;
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+#social-media-logo-container{
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 4%;
+
+    width: 30%;
+
+    text-align: center;
+}
+
+#social-media-logo-container > a{
+    color: white;
+}
+
+#social-media-logo-container > a:hover{
+    color: #9f2417;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#social-media-logo-container > a:nth-child(1){
+    margin-left: -3%;
+}
+
+#social-media-logo-container > a:nth-child(2){
+    margin-left: 3%;
+}
+
+#social-media-logo-container > a:nth-child(3){
+    margin-left: 3%;
+}
